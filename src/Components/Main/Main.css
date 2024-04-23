@@ -1,0 +1,31 @@
+*{
+    /* padding: 0; */
+    /* box-sizing: border-box; */
+
+
+}
+nav{
+   position: -webkit-sticky;
+    height: 70px;
+    width: 100%;
+    text-decoration: none;
+    position: sticky;
+    background-color: azure;
+}
+nav ul{
+    display:  flex;
+    /* justify-content: space-around; */
+    list-style: none;
+    column-gap: 100px;
+    margin-left: 250px;
+}
+    
+nav ul li{
+    text-transform: uppercase;
+    text-decoration-color: blue;
+    margin-top: 30px;
+
+}
+nav ul li Link{
+    text-decoration: none;
+}
